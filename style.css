@@ -1,0 +1,26 @@
+body {
+	margin: 0;
+	padding: 0;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.outer{
+    height:200px;
+    width:300px;
+    border:black 1px solid;
+    border-radius: 50px;;
+    background-color: #F60000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.inner{
+    width: 0; 
+	height: 0; 
+	border-bottom: 60px solid transparent;
+	border-left: 120px solid white;
+	border-top: 60px solid transparent;
+}
